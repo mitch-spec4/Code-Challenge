@@ -59,11 +59,11 @@ function calculateNetSalary(basicSalary, benefits) {
     let netSalary = grossSalary - (paye + nhif + nssf);
 
  
-    console.log('Gross Salary: Ksh ${grossSalary.toFixed(2)}');
-    console.log('PAYE (Tax): Ksh ${paye.toFixed(2)}');
-    console.log('NHIF Deduction: Ksh ${nhif.toFixed(2)}');
-    console.log('NSSF Deduction: Ksh ${nssf.toFixed(2)}');
-    console.log('Net Salary: Ksh ${netSalary.toFixed(2)}');
+    console.log(`Gross Salary: Ksh ${grossSalary.toFixed(2)}`);
+    console.log(`PAYE (Tax): Ksh ${paye.toFixed(2)}`);
+    console.log(`NHIF Deduction: Ksh ${nhif.toFixed(2)}`);
+    console.log(`NSSF Deduction: Ksh ${nssf.toFixed(2)}`);
+    console.log(`Net Salary: Ksh ${netSalary.toFixed(2)}`);
 }
 
 
